@@ -3,7 +3,7 @@
   --paper: #121b18;
   --ink: #e3ebe6;
   --muted: #a2b4aa;
-  --accent: #a4ccba;
+  --accent: #79ffd2;
   --line: #304139;
   --clay: #c6ad8e;
   --serif: Arial, Helvetica, sans-serif;
@@ -40,9 +40,9 @@ h1 { color: var(--accent); font-family: var(--serif); font-weight: 500; font-siz
 .affiliation { font-family: var(--mono); font-size: 13px; color: var(--muted); line-height: 2; margin: 0; }
 .institute-link { color: var(--accent); text-decoration: underline; text-decoration-color: #526d5f; text-underline-offset: 3px; }
 .institute-link:hover { color: var(--clay); text-decoration-color: var(--clay); }
-.portrait { position: relative; z-index: 1; width: 172px; height: 172px; flex: none; object-fit: cover; object-position: 50% 27%; border-radius: 50%; filter: grayscale(1); box-shadow: none; }
+.portrait { position: relative; z-index: 1; width: 172px; height: 172px; flex: none; object-fit: cover; object-position: 50% 27%; border-radius: 50%; filter: grayscale(1) brightness(1.5) contrast(.88); box-shadow: none; }
 .profile-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 30px; }
-.profile-links a { border: 1px solid var(--line); background: #1b2822; border-radius: 2px; padding: 7px 13px; font-family: var(--mono); font-size: 12px; transition: background .2s, border-color .2s; }
+.profile-links a { border: 1px solid var(--line); background: #1b2822; border-radius: 999px; padding: 7px 13px; font-family: var(--mono); font-size: 12px; transition: background .2s, border-color .2s; }
 .profile-links a:hover { border-color: var(--accent); background: #263a30; }
 .profile-links span { margin-left: 6px; }
 .section { border-top: 1px solid var(--line); padding: 47px 0 52px; scroll-margin-top: 90px; }
@@ -52,7 +52,7 @@ h3 { font-weight: 500; font-size: 17px; line-height: 1.5; margin: 0 0 10px; }
 p { margin: 0 0 16px; }
 .section>p { max-width: 830px; }
 .tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 22px; }
-.tags span { background: #1b2822; border: 1px solid var(--line); border-radius: 2px; padding: 4px 10px; font-family: var(--mono); font-size: 12px; color: var(--accent); }
+.tags span { background: #1b2822; border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; font-family: var(--mono); font-size: 12px; color: var(--accent); }
 .project { scroll-margin-top: 95px; padding: 27px 0; border-bottom: 1px solid var(--line); }
 .project h3 { font-family: var(--serif); font-size: 28px; font-weight: 400; line-height: 1.22; color: var(--accent); max-width: 820px; margin-bottom: 15px; }
 .project:first-of-type { padding-top: 0; }
@@ -101,7 +101,7 @@ details li { margin-bottom: 7px; }
 @media (max-width: 760px) {
   .wrap { width: min(100% - 36px, 620px); }
   .header-inner { min-height: 62px; }
-  .menu-toggle { display: flex; width: 32px; height: 32px; flex-direction: column; align-items: center; justify-content: center; gap: 5px; background: none; border: 1px solid var(--line); border-radius: 2px; cursor: pointer; }
+  .menu-toggle { display: flex; width: 32px; height: 32px; flex-direction: column; align-items: center; justify-content: center; gap: 5px; background: none; border: 1px solid var(--line); border-radius: 999px; cursor: pointer; }
   .menu-toggle span { width: 14px; height: 1px; background: var(--accent); }
   .site-nav { display: none; position: absolute; left: 0; right: 0; top: 62px; background: var(--paper); border-bottom: 1px solid var(--line); padding: 12px 18px 20px; flex-direction: column; align-items: stretch; gap: 0; }
   .site-nav.is-open { display: flex; }
@@ -159,3 +159,7 @@ details li { margin-bottom: 7px; }
 
 .project .project-supervisor { font-size: 13px; color: var(--muted); line-height: 1.9; margin-bottom: 12px; }
 .funding-note { display: block; margin-top: 4px; color: var(--muted); font-size: 12px; line-height: 1.6; }
+
+/* Local neon aqua preview. */
+.entry-links a, .contact-links a { display: inline-flex; align-items: center; padding: 6px 13px; border: 1px solid var(--line); border-radius: 999px; background: #1b2822; color: var(--accent); text-decoration: none; }
+.entry-links a:hover, .contact-links a:hover { color: var(--accent); border-color: var(--accent); background: #263a30; }
