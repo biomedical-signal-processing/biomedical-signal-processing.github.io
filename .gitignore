@@ -1,0 +1,5 @@
+cv/
+downloads/
+scripts/prepare_cv.py
+_site/
+.DS_Store
