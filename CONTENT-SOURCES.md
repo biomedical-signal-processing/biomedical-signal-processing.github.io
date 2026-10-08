@@ -22,3 +22,17 @@ The four About paragraphs are the LinkedIn About text supplied directly by Luigi
 ## SLEEPYLAND resources and Contact
 
 Resource destinations and related publication titles copied from https://linktr.ee/lfiorillo: Docker Hub, macOS installation video, quickstart video, NAP preprint, and bias evaluation paper. The YouTube playlist is also linked in the SLEEPYLAND GitHub README. Contact uses Luigi’s requested LinkedIn/email invitation; the Linktree button is removed.
+
+## Consistent project funding fields
+
+Parkinson’s project: SNSF grant 10001305, Project funding, CHF 322,410, 01 November 2024–31 October 2027: https://data.snf.ch/grants/grant/10001305.
+
+SLEEPYLAND: CHORD Track C, 2nd Call approved-project list names Luigi Fiorillo as project manager, CHF 100,000 total costs and CHF 50,000 funds requested. The list does not provide a grant number or funding period; these absences and the distinction between requested funds and approved amount are explicit on the site. The CV project period is displayed separately. Source: https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/ORD/Calls/Approved_projects_CHORD_Track_C_2nd_Call.pdf
+
+## SLEEPYLAND funding correction
+
+Luigi explicitly supplied the displayed grant number TP80, approved amount CHF 100,000, and funding period January 2024–April 2025. These replace the previous funding caveats.
+
+## Added selected publication
+
+“Altered wakeful theta activity characterizes levodopa-induced dyskinesia in Parkinson’s disease”, published 19 March 2026 in npj Parkinson’s Disease. Title, full author order and date verified against https://www.nature.com/articles/s41531-026-01320-z. Added first in Selected publications.
